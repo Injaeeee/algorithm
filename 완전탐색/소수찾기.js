@@ -28,7 +28,7 @@ function solution(numbers) {
     }
   }
 
-  function decimal(n) {
+  function decimal(n) { //약수 구하기
     if (n < 2) return; // 백트래킹
 
     for (let i = 2; i <= n / 2; i++) {
