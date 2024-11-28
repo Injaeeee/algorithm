@@ -1,4 +1,5 @@
 // https://school.programmers.co.kr/learn/courses/30/lessons/49191
+// 플루이드 워셜
 
 function solution(n, results) {
     var answer = 0;
@@ -13,7 +14,7 @@ function solution(n, results) {
 
     var visited = new Array(n+1).fill(0); 
 
-    
+
  
     return answer;
 }
